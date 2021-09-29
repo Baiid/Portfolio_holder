@@ -27,6 +27,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+    {
+    id: nanoid(),
+    img: 'blog.png',
+    title: 'To Do List',
+    info: ' I build this blog with Gatsby as I wanted to build it fast and use Contentful CMS for my blogs. I used hooks to build my nav bar, and applied styled components. This site is fully responsive. I am still planning to add more code to it in the future. ',
+    // info2: '',
+    url: 'https://martinjahodagatsbyblog.netlify.app/',
+    repo: 'https://github.com/Baiid/GatsbyBlog', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'Project4.png',
