@@ -27,6 +27,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+      {
+    id: nanoid(),
+    img: 'airbnb.png',
+    title: 'London Airbnb',
+    info: ' I build this website with React. I have used styled components to keep everything organize. I have implemented react router for my toggle. Website content is stored in data folder, which I am using to diplay content in my sections.  ',
+    // info2: '',
+    url: 'https://londonairbnb.netlify.app/',
+    repo: 'https://github.com/Baiid/AirbnbWeb, // if no repo, the button will not show up
+  },
     {
     id: nanoid(),
     img: 'blog.png',
